@@ -1,0 +1,17 @@
+*,
+*::after,
+*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+    /* background-color: #045de9;
+    background-image: linear-gradient(315deg, #045de9 0%, #09c6f9 74%); */
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    box-sizing: border-box;
+}
