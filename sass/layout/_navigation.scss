@@ -45,18 +45,15 @@
     &__list {
        @include center-horizontal-vertical;
        list-style: none;
-       text-align-last: center;     
+       text-align: center;     
        width: 100%;  
     }
 
     &__item {
         margin: 1rem;
-   
-
     }
 
     &__link {
-
         &:link,
         &:visited {
          display: inline-block;
@@ -74,9 +71,7 @@
                 margin-right: 1rem;
                 display: inline-block;
             }
-
         }
-
         &:hover,
         &:active {
             background-position: 100%;
